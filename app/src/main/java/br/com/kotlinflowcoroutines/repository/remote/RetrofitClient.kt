@@ -4,7 +4,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 class RetrofitClient private constructor() {
     companion object {
-        private const val BASE_URL = "{my base url}}"
+        private const val BASE_URL = "your link api"
         private lateinit var INSTANCE: Retrofit
         private var token: String = ""
         private var personKey: String = ""
